@@ -146,6 +146,7 @@ The "coprocessor" approach — verifiable AI model execution on-chain.
 
 | Tool | Description |
 |------|-------------|
+| [Chain.Love](https://www.chain.love/) | Hosted service for discovering Web3 infrastructure through a public registry and MCP gateway. |
 | [CoinGecko AI Category](https://coingecko.com/en/categories/artificial-intelligence) | AI token prices and market cap rankings. |
 | [CoinMarketCap AI](https://coinmarketcap.com/view/ai-big-data/) | AI & Big Data token listings. |
 | [Cookie.fun](https://cookie.fun) | AI agent mindshare and engagement tracking. |
