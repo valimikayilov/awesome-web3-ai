@@ -18,7 +18,9 @@ jobs:
           args: --verbose --no-progress README.md
           fail: false
       - name: Require the added URL to pass
-        run: lychee --verbose --no-progress https://www.chain.love/
+        run: |
+          printf '%s\n' '[Chain.Love](https://www.chain.love/)' > /tmp/chainlove-added-link.md
+          lychee --verbose --no-progress /tmp/chainlove-added-link.md
       - name: Save link report
         if: always()
         uses: actions/upload-artifact@v4
